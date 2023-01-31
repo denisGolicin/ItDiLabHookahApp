@@ -24,7 +24,7 @@ body, html{
     font-size: 18px;
     color: #fff;
 
-    background-color: cadetblue;
+    background-color: rgb(22, 35, 36);
 }
 
 .phone-wrapper{
@@ -45,7 +45,7 @@ header{
 
     border: var(--border-debug) solid red;
     box-shadow: 0 0 5px black;
-    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(118,42,133,1) 0%, rgba(35,139,172,1) 100%);
+    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgb(26, 6, 25) 0%, rgb(75, 119, 119) 100%);
 }
 
 
@@ -74,7 +74,7 @@ main{
     position: relative;
 
     border-radius: 10px;
-    background-color: rgb(43, 160, 180);
+    background-color: rgb(75, 119, 119);
     box-shadow: 0 0 5px black;
 }
 
