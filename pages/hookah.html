@@ -68,6 +68,10 @@
 			background-color: #fff;
 			border-radius: 50%;
 		}
+		.icon-hook>img{
+			width: 100%;
+			height: 100%;
+		}
 		.hookah-info{
 			width: 80%;
 			height: 100%;
@@ -101,7 +105,12 @@
 			width: 35px;
 			height: 35px;
 			border-radius: 50%;
-			background-color: #fff;
+		}
+		.smoke-icon>img{
+			width: 100%;
+			height: 100%;
+
+			border-radius: 50%;
 		}
 		.smoke-item:last-child{
 			border: 0;
@@ -115,6 +124,42 @@
 			align-items: center;
 			flex-direction: column;
 		}
+		.staff-profile{
+			width: 100%;
+			height: 70%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.staff-profile>img{
+			width: 210px;
+			height: 210px;
+			border-radius: 50%;
+
+			box-shadow: 0 0 5px black;
+		}
+		.staff-name{
+			width: 100%;
+			height: 20%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		.staff-arrow{
+			width: 100%;
+			height: 10%;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.staff-arrow>p{
+			background-color: rgb(1, 68, 68);
+			padding: 5px 10px 5px 10px;
+			border-radius: 10px;
+			box-shadow: 0 0 5px black;
+		}
 	</style>
 	
 </head>
@@ -125,7 +170,9 @@
 			<header>
 				<a href="main.html"><div style="margin-left: 20px; font-size: 25px;">←</div></a>
 				<p>About hookah: name</p>
-				<div style="margin-right: 20px;" class="h-icon"></div>
+				<div style="filter: invert(25%) sepia(93%) saturate(300%) hue-rotate(87deg) brightness(119%) contrast(25%); margin-right: 20px;background-color: rgba(255, 255, 255, 0); margin-right: 20px; background-color: rgba(255, 255, 255, 0);" class="h-icon">
+					<img src="../src/img/setting_ugocnm44yhu3.svg" alt="">
+				</div>
 			</header>
 
 			<main>
@@ -133,7 +180,9 @@
 					<div class="hookah-box">
 						<div class="hookah-elemetns">
 							<div class="hookah-icon">
-								<div class="icon-hook"></div>
+								<div class="icon-hook">
+									<img src="../src/img/hookah_t9ec2rxzfjwx.svg" alt="">
+								</div>
 							</div>
 							<div class="hookah-info">
 								<p style="margin-bottom: 5px;">Address: Komsomolskaya 3A</p>
@@ -149,67 +198,71 @@
 				<div class="smoke-wrapper">
 					<div class="smoke-box">
 						<div class="smoke-item">
-							<div style="margin-left: 20px;" class="smoke-icon"></div>
+							<div style="margin-left: 20px;" class="smoke-icon">
+								<img src="../src/img/Phl69Q3eJyM.jpg" alt="">
+							</div>
 							<div class="smoke-name">Smoke name</div>
 							<div style="margin-right: 20px; font-size: 25px;" class="smoke-arrow">→</div>
 						</div>
 						<div class="smoke-item">
-							<div style="margin-left: 20px;" class="smoke-icon"></div>
+							<div style="margin-left: 20px;" class="smoke-icon">
+								<img src="../src/img/Phl69Q3eJyM.jpg" alt="">
+							</div>
 							<div class="smoke-name">Smoke name</div>
 							<div style="margin-right: 20px; font-size: 25px;" class="smoke-arrow">→</div>
 						</div>
 						<div class="smoke-item">
-							<div style="margin-left: 20px;" class="smoke-icon"></div>
+							<div style="margin-left: 20px;" class="smoke-icon"><img src="../src/img/Phl69Q3eJyM.jpg" alt=""></div>
 							<div class="smoke-name">Smoke name</div>
 							<div style="margin-right: 20px; font-size: 25px;" class="smoke-arrow">→</div>
 						</div>
 						<div class="smoke-item">
-							<div style="margin-left: 20px;" class="smoke-icon"></div>
+							<div style="margin-left: 20px;" class="smoke-icon"><img src="../src/img/Phl69Q3eJyM.jpg" alt=""></div>
 							<div class="smoke-name">Smoke name</div>
 							<div style="margin-right: 20px; font-size: 25px;" class="smoke-arrow">→</div>
 						</div>
 						<div class="smoke-item">
-							<div style="margin-left: 20px;" class="smoke-icon"></div>
+							<div style="margin-left: 20px;" class="smoke-icon"><img src="../src/img/Phl69Q3eJyM.jpg" alt=""></div>
 							<div class="smoke-name">Smoke name</div>
 							<div style="margin-right: 20px; font-size: 25px;" class="smoke-arrow">→</div>
 						</div>
 						<div class="smoke-item">
-							<div style="margin-left: 20px;" class="smoke-icon"></div>
+							<div style="margin-left: 20px;" class="smoke-icon"><img src="../src/img/Phl69Q3eJyM.jpg" alt=""></div>
 							<div class="smoke-name">Smoke name</div>
 							<div style="margin-right: 20px; font-size: 25px;" class="smoke-arrow">→</div>
 						</div>
 						<div class="smoke-item">
-							<div style="margin-left: 20px;" class="smoke-icon"></div>
+							<div style="margin-left: 20px;" class="smoke-icon"><img src="../src/img/Phl69Q3eJyM.jpg" alt=""></div>
 							<div class="smoke-name">Smoke name</div>
 							<div style="margin-right: 20px; font-size: 25px;" class="smoke-arrow">→</div>
 						</div>
 						<div class="smoke-item">
-							<div style="margin-left: 20px;" class="smoke-icon"></div>
+							<div style="margin-left: 20px;" class="smoke-icon"><img src="../src/img/Phl69Q3eJyM.jpg" alt=""></div>
 							<div class="smoke-name">Smoke name</div>
 							<div style="margin-right: 20px; font-size: 25px;" class="smoke-arrow">→</div>
 						</div>
 						<div class="smoke-item">
-							<div style="margin-left: 20px;" class="smoke-icon"></div>
+							<div style="margin-left: 20px;" class="smoke-icon"><img src="../src/img/Phl69Q3eJyM.jpg" alt=""></div>
 							<div class="smoke-name">Smoke name</div>
 							<div style="margin-right: 20px; font-size: 25px;" class="smoke-arrow">→</div>
 						</div>
 						<div class="smoke-item">
-							<div style="margin-left: 20px;" class="smoke-icon"></div>
+							<div style="margin-left: 20px;" class="smoke-icon"><img src="../src/img/Phl69Q3eJyM.jpg" alt=""></div>
 							<div class="smoke-name">Smoke name</div>
 							<div style="margin-right: 20px; font-size: 25px;" class="smoke-arrow">→</div>
 						</div>
 						<div class="smoke-item">
-							<div style="margin-left: 20px;" class="smoke-icon"></div>
+							<div style="margin-left: 20px;" class="smoke-icon"><img src="../src/img/Phl69Q3eJyM.jpg" alt=""></div>
 							<div class="smoke-name">Smoke name</div>
 							<div style="margin-right: 20px; font-size: 25px;" class="smoke-arrow">→</div>
 						</div>
 						<div class="smoke-item">
-							<div style="margin-left: 20px;" class="smoke-icon"></div>
+							<div style="margin-left: 20px;" class="smoke-icon"><img src="../src/img/Phl69Q3eJyM.jpg" alt=""></div>
 							<div class="smoke-name">Smoke name</div>
 							<div style="margin-right: 20px; font-size: 25px;" class="smoke-arrow">→</div>
 						</div>
 						<div class="smoke-item">
-							<div style="margin-left: 20px;" class="smoke-icon"></div>
+							<div style="margin-left: 20px;" class="smoke-icon"><img src="../src/img/Phl69Q3eJyM.jpg" alt=""></div>
 							<div class="smoke-name">Smoke name</div>
 							<div style="margin-right: 20px; font-size: 25px;" class="smoke-arrow">→</div>
 						</div>
@@ -218,8 +271,17 @@
 				</div>
 				<div class="staff-wrapper">
 					<div class="staff-box">
-						<div class="stuff-item"></div>
-						
+						<div class="staff-profile">
+							<img src="../src/img/danil.PNG" alt="">
+						</div>
+						<div class="staff-name">
+							<p><span style="color: rgb(1, 68, 68); text-shadow: 0 0 2px black;">Danil</span> Super HookahMan</p>
+							<p>Long-term work <span style="color: rgb(1, 68, 68); text-shadow: 0 0 2px black;">experience</span></p>
+						</div>
+						<div class="staff-arrow">
+							<p style="margin-right: 30px;">←</p>
+							<p style="margin-left: 30px;">→</p>
+						</div>
 					</div>
 				</div>
 			</main>
