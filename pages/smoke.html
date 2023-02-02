@@ -166,30 +166,11 @@
 	<body>
 		
 		<div class="phone-wrapper">
-			<div class="setting-wrapper">
-				<div class="profile-photo">
-					<img src="../src/img/profile_empty.svg" alt="">
-				</div>
-				<p>First Name Last Name</p>
-				<p style="color: rgb(75, 119, 119); text-shadow: 0 0 5px black;"><b>client</b></p>
-				<p class="button-setting">Balance</p>
-				<p style ="margin-top: 10px; margin-bottom: 10px;" class="button-setting">Change photo</p>
-				<p class="button-setting">Exit</p>
-			</div>
-
-			<div class="smokeN-wrapper">
-				<div class="smokeN-photo">
-					<img src="../src/img/Phl69Q3eJyM.jpg" alt="">
-				</div>
-				<p>Smoke name</p>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sapiente, illum cupiditate, pariatur voluptatem, incidunt dolorem provident eius optio ipsa architecto exercitationem facilis et eligendi obcaecati natus voluptatibus quas accusamus?</p>
-			</div>
-
 
 			<header>
 				<a href="main.html"><div style="margin-left: 20px; font-size: 25px;">←</div></a>
 				<p>About hookah: name</p>
-				<div id="setting" style="filter: invert(25%) sepia(93%) saturate(300%) hue-rotate(87deg) brightness(119%) contrast(25%); margin-right: 20px;background-color: rgba(255, 255, 255, 0); margin-right: 20px; background-color: rgba(255, 255, 255, 0);" class="h-icon">
+				<div style="filter: invert(25%) sepia(93%) saturate(300%) hue-rotate(87deg) brightness(119%) contrast(25%); margin-right: 20px;background-color: rgba(255, 255, 255, 0); margin-right: 20px; background-color: rgba(255, 255, 255, 0);" class="h-icon">
 					<img src="../src/img/setting_ugocnm44yhu3.svg" alt="">
 				</div>
 			</header>
@@ -307,38 +288,6 @@
 
 		</div>
 
-		<script>
-			let setting = document.querySelector('.setting-wrapper');
-			let settingBtn = document.getElementById('setting');
-
-			settingBtn.addEventListener('click', function(){
-				setting.style.display = "flex";
-				smoke.style.display = "none";
-			})
-
-			setting.addEventListener('click', function(){
-				setting.style.display = "none";
-				smoke.style.display = "none";
-			})
-
-			let smoke = document.querySelector('.smokeN-wrapper');
-			let smokeBtn = [];
-			smokeBtn = document.querySelectorAll('.smoke-item');
-
-			for(let i = 0; i < smokeBtn.length; i++){
-
-					smokeBtn[i].addEventListener('click', function(){
-					smoke.style.display = "flex";
-
-					setting.style.display = "none";
-				})
-			}
-
-			smoke.addEventListener('click', function(){
-				smoke.style.display = "none";
-				setting.style.display = "none";
-			})
-
-		</script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
